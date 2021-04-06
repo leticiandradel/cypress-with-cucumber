@@ -1,0 +1,12 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+    "video": false,
+    "viewportHeight": 900,
+    "viewportWidth": 1600,
+    "integrationFolder": "cypress/integration",
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
+}

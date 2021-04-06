@@ -1,0 +1,30 @@
+{
+  "name": "desafio-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run ",
+    "postcypress:run": "node ./cypress/support/cucumber-html-reporter.js"
+  },
+  "keywords": [],
+  "author": "Letícia Raquel Lopes de Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "5.4.11",
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^7.0.0",
+    "cypress-cucumber-preprocessor": "4.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration/",
+    "cucumberJson": {
+       "generate": true,
+       "outputFolder": "cypress/cucumber-json",
+       "filePrefix": "",
+       "fileSuffix": ""
+    }
+  }
+}
