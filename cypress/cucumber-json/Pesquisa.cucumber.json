@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    Como usuário, desejo realizar uma Pesquisa",
+    "keyword": "Feature",
+    "name": "Pesquisa",
+    "line": 1,
+    "id": "pesquisa",
+    "tags": [],
+    "uri": "Pesquisa.feature",
+    "elements": [
+      {
+        "id": "pesquisa;pesquisar-faded-short-sleeve",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Pesquisar Faded Short Sleeve",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que eu acesso a Automation Practice",
+            "result": {
+              "status": "passed",
+              "duration": 6986000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "eu clico no campo Search",
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "eu preencho o campo com o valor desejado \"Faded Short Sleeve\"",
+            "result": {
+              "status": "passed",
+              "duration": 692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "eu clico no botão Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 2630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "devo obter o resultado",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

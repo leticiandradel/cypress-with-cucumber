@@ -11,7 +11,7 @@ Para configurar o ambiente, após clonar o repositório, execute os seguintes co
 
 npm run cypress:run
 
-ou 
+npx cypress open
 
 [modo headless]
 npm run cypress:run -- --headless

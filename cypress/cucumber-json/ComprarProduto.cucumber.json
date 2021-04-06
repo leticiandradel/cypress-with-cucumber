@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    Como usuário, desejo realizar uma Pesquisa\n    Para que possa adicionar o resultado ao carrinho de compras",
+    "keyword": "Feature",
+    "name": "Comprar Produto",
+    "line": 1,
+    "id": "comprar-produto",
+    "tags": [],
+    "uri": "ComprarProduto.feature",
+    "elements": [
+      {
+        "id": "comprar-produto;adicionar-faded-short-sleeve-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Adicionar Faded Short Sleeve ao carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que eu acesso a Automation Practice",
+            "result": {
+              "status": "passed",
+              "duration": 1997000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "eu clico no campo Search",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "eu preencho o campo com o valor desejado \"Faded Short Sleeve\"",
+            "result": {
+              "status": "passed",
+              "duration": 730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "eu clico no botão Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 1682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "eu adiciono o produto ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
